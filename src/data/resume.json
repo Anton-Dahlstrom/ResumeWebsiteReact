@@ -1,0 +1,41 @@
+{
+    "education": [
+        {
+            "school": "Chas Academy",
+            "degree": "Fullstack .NET development",
+            "startDate": "September 2024",
+            "endDate": "June 2026",
+            "info": "Advanced fullstack development in .NET and react."
+        },
+        {
+            "school": "Astar",
+            "degree": "Web development",
+            "startDate": "June 2023",
+            "endDate": "April 2024",
+            "info": "Focus on C#, JavaScript, HTML & CSS."
+        }
+    ],
+    "jobs": [
+        {
+            "company": "Partyhallen",
+            "position": "Copywriter & Warehouse",
+            "startDate": "September 2022",
+            "endDate": "March 2023",
+            "info": [
+                "I started as a warehouse worker where, in addition to my regular duties, I contributed suggestions and implementations for several company procedures.",
+                "A few examples includes optimizing the return process, order printing, and a more efficient shelf numbering system.",
+                "I later became responsible for writing SEO-friendly product descriptions and finding effective and relevant keywords for new products."
+            ]
+        },
+        {
+            "company": "Esports",
+            "position": "StarCraft 2",
+            "startDate": "",
+            "endDate": "",
+            "info": [
+                "Competed at the highest level in Starcraft II, becoming Swedish champion three years in a row and representing some of the gaming worlds largest sponsors.",
+                "During my time as a Starcraft player, I regularly participated in international competitions and lived periodically in South Korea and the USA, which strengthened my communication skills and me a fluent english speaker."
+            ]
+        }
+    ]
+}

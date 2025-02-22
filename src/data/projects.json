@@ -1,0 +1,16 @@
+{
+    "websiteProject": {
+        "title": "Odds website",
+        "header": "Daily odds from sport leagues with login functionality.",
+        "description": "Main libraries used: FastAPI, Jinja, SQLAlchemy and Alembic.",
+        "image": "./images/websiteProject.png"
+    },
+    "Leetcode": {
+        "title": "Leetcode",
+        "header": "A collection of my leetcode solutions",
+        "description": "Mostly written in Python and C#."
+    },
+    "Anton-Dahlstrom": {
+        "skip": "true"
+    }
+}

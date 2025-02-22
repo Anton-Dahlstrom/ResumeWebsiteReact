@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Anton Dahlström - Projects</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="/index.html" class="logo">Home</a>
+            <button class="mobile-menu-btn" onclick="">☰ Menu</button>
+            <nav class="nav-links">
+                <a href="./projects.html" class="active-page">Projects</a>
+                <a href="./resume.html">Resume</a>
+                <a href="./about.html">About Me</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="card-container">
+            <div class="card">
+                <a href="https://github.com/Anton-Dahlstrom/websiteProject" target="_blank">
+                    <img src="./images/odds.png" alt="odds project">
+                </a>
+                <div class="card-content">
+                    <h2>Odds website</h2>
+                    <p>Daily odds from sport leagues with login functionality. </p>
+                    <details>
+                        <summary class="read-more">Read more</summary>
+                        <div class="details-content">
+                            <p>You can find the hosted version <a
+                                    href="https://anton-websiteproject.onrender.com/">here</a>.
+                            </p>
+                            <p>Beware the page might take up to a minute to load if it hasn't been visited recently.</p>
+                            <p>Main libraries used: FastAPI, Jinja, SQLAlchemy and Alembic.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+            <div class="card">
+                <a href="https://github.com/Marremelad/SalamanderBank" target="_blank">
+                    <img src="./images/salaman.png" alt="salamander bank app">
+                </a>
+                <div class="card-content">
+                    <h2>Salamander Bank</h2>
+                    <p>Bank simulator with scheduled transactions, currency conversion and SMS integration.</p>
+                    <details>
+                        <summary class="read-more">Read more</summary>
+                        <div class="details-content">
+                            <p>Made using dapper and SQLite</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="popup">
+        <p>🥚 You found the secret egg! 🥚</p>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Anton-Dahlstrom" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/anton-dahlstr%C3%B6m-5a56a9297/" target="_blank">LinkedIn</a>
+                <a href="mailto:anton.dahlstrom@hotmail.com">Email</a>
+            </div>
+            <div><span id="changebg">©</span>
+                2025 Anton Dahlström. All
+                rights
+                reserved.</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
