@@ -16,8 +16,8 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path="{/}" element={<Index />} />
-          <Route path="{/resume}" element={<Resume />} />
           <Route path="{/projects}" element={<Projects />} />
+          <Route path="{/resume}" element={<Resume />} />
           <Route path="{/about}" element={<About />} />
           <Route path="{/resumewebsitereact/contact}" element={<Contact />} />
         </Routes>
