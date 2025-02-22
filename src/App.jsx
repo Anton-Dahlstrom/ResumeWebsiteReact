@@ -15,11 +15,11 @@ function App() {
       <HashRouter>
         <Navbar></Navbar>
         <Routes>
-          <Route path="{/}" element={<Index />} />
-          <Route path="{/projects}" element={<Projects />} />
-          <Route path="{/resume}" element={<Resume />} />
-          <Route path="{/about}" element={<About />} />
-          <Route path="{/resumewebsitereact/contact}" element={<Contact />} />
+          <Route path="/" element={<Index />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer></Footer>
       </HashRouter>
